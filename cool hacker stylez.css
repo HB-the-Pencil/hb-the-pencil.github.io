@@ -1,19 +1,17 @@
 body {
-    background-color:black;  
+	background-color: black;
+	font-family: 'Courier New', Courier, monospace;
 }
 h1 {
-    font-family: 'Courier New', Courier, monospace;
-    color: green;
+	color: green;
+}
+h5 {
+	color: green;
+	font-weight: bold;
+	font-size: 16pt;
 }
 p {
-    font-family: 'Courier New', Courier, monospace;
-    color: green;
-    font-weight: bold;
-    font-size: 16pt;
-}
-marquee {
-    font-family: 'Courier New', Courier, monospace;
-    color: green;
-    font-weight: bold;
-    font-size: 16pt;
+	color: green;
+	font-weight: bold;
+	font-size: 14pt;
 }
