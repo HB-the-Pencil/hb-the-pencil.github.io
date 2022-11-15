@@ -1,0 +1,19 @@
+body {
+    background-color:black;  
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+    font-weight: bold;
+    font-size: 16pt;
+}
+marquee {
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+    font-weight: bold;
+    font-size: 16pt;
+}
