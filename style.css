@@ -18,3 +18,9 @@ summary {
 	color: DarkBlue;
 	display: flex;
 }
+div {
+	width: 75%;
+	/* I love w3schools */
+	margin: auto;
+	
+}
