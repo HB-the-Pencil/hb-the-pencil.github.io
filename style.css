@@ -12,5 +12,7 @@ p {
 	font-size: 14pt;
 }
 summary {
+	color: blue;
 	display: flex;
+	column-count: 3;
 }
