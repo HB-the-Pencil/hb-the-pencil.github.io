@@ -15,5 +15,6 @@ details {
 	column-count: 3;
 }
 summary {
+	color: DarkBlue;
 	display: flex;
 }
