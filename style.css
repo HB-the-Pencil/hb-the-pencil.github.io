@@ -11,8 +11,9 @@ p {
 	font-weight: bold;
 	font-size: 14pt;
 }
-summary {
-	color: blue;
-	display: flex;
+details {
 	column-count: 3;
+}
+summary {
+	display: flex;
 }
