@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>HB_the_Pencil on GitHub :D</title>
+        <title>Henry Barcalow (HB_the_Pencil) on GitHub</title>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="github pfp.png">
     </head>
     <body>
-        <!--confetti!-->
+        <button id="darkModeButton" onclick="darkModeToggle()">☽ Dark Mode</button>
         <div id="Intro" style="width:75%">
             <h1>🚧 Under Repair 🚧</h1>
             <h2>I'm Henry Barcalow. I'm an aspiring developer who goes by the name of HB_the_Pencil.</h2>
@@ -52,4 +52,16 @@
             <p>NOTE TO ME: add SDEV 128 projects, Zaberkam, Zaberkam doc, BSS testing, Karlson testing</p>
         </div>
     </body>
+    <script>
+        // W3Schools, you are my hero
+        function darkModeToggle() {
+            document.body.classList.toggle("dark-mode");
+            if (document.body.classList.contains("dark-mode")) {
+                document.getElementById("darkModeButton").innerHTML = "❂ Light Mode";
+            }
+            else {
+                document.getElementById("darkModeButton").innerHTML = "☽ Dark Mode";
+            }
+        }
+    </script>
 </html>

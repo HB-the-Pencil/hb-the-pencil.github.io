@@ -1,26 +1,31 @@
 body {
-	background-color: DarkGrey;
-	font-family: 'Courier New', Courier, monospace;
-	font-size: 12pt;
+    background-color: #efefef;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12pt;
+    color: #101010;
+}
+.dark-mode {
+    background-color: #101010;
+    color: #efefef;
 }
 h2 {
-	font-weight: bold;
-	font-size: 16pt;
+    font-weight: bold;
+    font-size: 16pt;
 }
 p {
-	font-weight: bold;
-	font-size: 14pt;
+    font-weight: bold;
+    font-size: 14pt;
 }
 details {
-	column-count: 3;
+    column-count: 3;
 }
 summary {
-	color: DarkBlue;
-	display: flex;
+    color: DarkBlue;
+    display: flex;
 }
 div {
-	width: 75%;
-	/* I love w3schools */
-	margin: auto;
-	
+    width: 75%;
+    /* I love w3schools */
+    margin: auto;
+    
 }
